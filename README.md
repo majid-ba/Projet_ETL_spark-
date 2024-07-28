@@ -1,12 +1,15 @@
-# Projet Spark 
+# Projet Final: Data Engineering avec Apache Spark
+
+**Enseignant** : Dr. Djibril Mboup.
 
 - **Nom** :
 - **Prenom**:
 - **Classe** : 
 
-## Information Importante :
+## Informations Importantes :
 - Le travail que founit l'étudiant doit etre personel, tout tentative de plagiat sera sévérement sanctionné
-- Le code source de ce projet doit etre partagé dans un repos Git public. N'oublié pas d'y mettre le fichier jar compilé et buildé avec Sbt.
+- Le code source de ce projet doit etre partagé dans un repos Git public. 
+- Le code source doit etre compilé et buildé afin de générer le fichier jar.
 - **Date limite de dépot** : ***07/08/2024 avant 23h 59***
 
 ## Travail à Faire:
@@ -20,5 +23,10 @@ Ainsi, il faut remplir ***FILL_IN*** avec les methodes qui correspondent à la r
 
 ## Need
 - Installer Intellij ou un IDE de votre choix
-- Cloner le projet
-- 
+- Cloner le GitHub projet
+- Datasets : les données se trouvent dans le repertoire datasets
+
+
+
+## Licence 
+@copyright 
