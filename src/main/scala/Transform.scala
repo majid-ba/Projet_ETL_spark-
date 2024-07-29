@@ -10,11 +10,17 @@ object Transform {
 
   def cleanData(df: DataFrame): DataFrame = {
     /*
+    0. Traiter toutes les colonnes en date timestamp vers YYYY/MM/DD HH:MM SSS.
+     */
+
+    val firstDF = df.FILL_IN
+
+    /*
     1. Extraire les revenus d'achat pour chaque événement
       - Ajouter une nouvelle colonne nommée revenue en faisant l'extration de ecommerce.purchase_revenue_in_usd
      */
 
-    val revenueDF = df.FILL_IN
+    val revenueDF = firstDF.FILL_IN
 
     /*
     2. Filtrer les événements dont le revenu n'est pas null
