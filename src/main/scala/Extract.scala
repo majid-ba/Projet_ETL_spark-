@@ -12,8 +12,8 @@ object Extract {
       df
     } catch {
       case e: Exception => {
-        Utils._log.error(s"The input path define in the SMC.conf is incorrect or " +
-          s"the file inserted in HDFS is outdated : " +
+        Utils._log.error(s"The input path defined is incorrect or " +
+          s"the file format does not match data." +
           s"or file format is incorrect. " + e.getMessage)
         throw e
       }
