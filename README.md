@@ -7,9 +7,9 @@
 - **Classe** : 
 
 ## Informations Importantes :
-- Le travail que founit l'étudiant doit etre personel, tout tentative de plagiat sera sévérement sanctionné
-- Le code source de ce projet doit etre partagé dans un repos Git public. 
-- Le code source doit etre compilé et buildé afin de générer le fichier jar.
+- Le travail que doit founir l'étudiant doit etre personel, tout tentative de plagiat sera sévérement sanctionné.
+- Le code source de ce projet doit etre partagé dans un repos GitHub public. 
+- Le code source doit etre compilé, testé et buildé afin de générer le fichier jar.
 - **Date limite de dépot** : ***07/08/2024 avant 23h 59***
 
 ## Travail à Faire:
