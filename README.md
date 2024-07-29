@@ -16,9 +16,9 @@
 L'objectif est creer un pipline ETL avec Apache Spark pour traiter les donnees . Ce code contient :
 - Une classe Object **Extract** pour charger les données
 - Une classe Object **Transform** qui permet de traiter les données. Dans cette classe vous allez traiter 
-les questions que contient les fonctions **cleanData**  et **computeTrafficRevenue** avec le maximum de precisions et de détails.
+les questions que contiennent les fonctions **cleanData**  et **computeTrafficRevenue** avec le maximum de precisions et de détails.
 Ainsi, il faut remplir ***FILL_IN*** avec les methodes qui correspondent à la réponse adéquate.
-- Une classe Object **Load** pour sauvegarder les données. Vous devez completer la fonction **saveData** la persistence des données.
+- Une classe Object **Load** pour sauvegarder les données. Vous devez completer la fonction **saveData** pour la persistence des données.
 
 
 ## Need
