@@ -9,10 +9,11 @@ object Main {
     //get the path to the JSON file
     val jsonFilePath = args(0)
     val outputPath = args(1)
+    
 
 
     val df = Extract.read_source_file(jsonFilePath, "json")
-    df.show()
+    //df.show()
 
     val cleanDF = Transform.cleanData(df)
     cleanDF.show()
@@ -20,7 +21,7 @@ object Main {
     val transformDF = Transform.computeTrafficRevenue(cleanDF)
     transformDF.show()
 
-    Load.saveData(transformDF, "ovewrite", "parquet", outputPath)
+    Load.saveData(transformDF, "overwrite", "parquet", outputPath)
 
   }
 }

@@ -1,16 +1,14 @@
-ThisBuild / version := "0.1.0"
+name := "SparkPProject"
 
-ThisBuild / scalaVersion := "2.12.12"
+version := "0.1"
 
-lazy val sparkVersion = sys.env.getOrElse("SPARK_VERSION", "2.4.5")
+scalaVersion := "2.12.18"
 
-lazy val root = (project in file("."))
-  .settings(
-    name := "project_scala_spark",
-    libraryDependencies ++= Seq(
-      "org.apache.spark" %% "spark-core" % sparkVersion % "provided",
-      "org.apache.spark" %% "spark-sql" % sparkVersion % "provided",
-      "com.typesafe.scala-logging" %% "scala-logging" % "3.9.5",
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % "3.5.1",
+  "org.apache.spark" %% "spark-sql" % "3.5.1"
+)
 
-    )
-  )
+resolvers += "Apache Snapshots" at "https://repository.apache.org/content/repositories/snapshots/"
+resolvers += "Maven Central" at "https://repo1.maven.org/maven2/"
+

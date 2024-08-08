@@ -1,4 +1,9 @@
 import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.functions._
+import org.apache.spark.sql.types._
+import org.apache.spark.sql.Dataset
+import org.apache.spark.sql.Row
 
 object Transform {
 
@@ -9,24 +14,25 @@ object Transform {
    */
 
   def cleanData(df: DataFrame): DataFrame = {
-    /*
-    0. Traiter toutes les colonnes en date timestamp vers YYYY/MM/DD HH:MM SSS.
-     */
+ 
+     //0. Traiter toutes les colonnes en date timestamp vers YYYY/MM/DD HH:MM SSS.
 
-    val firstDF = df.FILL_IN
-
-    /*
+    val firstDF = df.withColumn("event_previous_timestamp", date_format((col("event_previous_timestamp") / 1000).cast("timestamp"), "yyyy/MM/dd HH:mm SSS"))
+                    .withColumn("event_timestamp", date_format((col("event_timestamp") / 1000).cast("timestamp"), "yyyy/MM/dd HH:mm SSS"))
+                    .withColumn("user_first_touch_timestamp", date_format((col("user_first_touch_timestamp") / 1000).cast("timestamp"), "yyyy/MM/dd HH:mm SSS"))
+    
+     /*
     1. Extraire les revenus d'achat pour chaque événement
       - Ajouter une nouvelle colonne nommée revenue en faisant l'extration de ecommerce.purchase_revenue_in_usd
      */
 
-    val revenueDF = firstDF.FILL_IN
+    val  revenueDF= firstDF.withColumn("revenue", col("ecommerce.purchase_revenue_in_usd"))
 
     /*
     2. Filtrer les événements dont le revenu n'est pas null
     */
-    val purchasesDF = revenueDF.FILL_IN
 
+     val purchasesDF = revenueDF.filter(col("revenue").isNotNull)
 
     /*
     3. Quels sont les types d'événements qui génèrent des revenus ?
@@ -34,18 +40,21 @@ object Transform {
       Combien y a t-il de type d'evenement ?
      */
 
-    val distinctDF = purchasesDF.FILL_IN
+    val distinctDF = purchasesDF.select("event_name").distinct()
 
+    // Nombre de type d'evenement
+    val nombreEvenement = distinctDF.count()
+  
     /*
      4. Supprimer la/les colonne(s9 inutile(s)
       - Supprimez event_name de purchasesDF.
       */
 
-    val cleanDF = distinctDF.FILL_IN
+    val cleanDF = purchasesDF.drop("event_name")
+    
+    cleanDF 
 
-    cleanDF
-
-  }
+ }
 
 
   /**
@@ -63,26 +72,28 @@ object Transform {
       - Obtenir la somme de revenue comme total_rev
       - Obtenir la moyenne de revenue comme avg_rev
      */
-
-    val trafficDF = df.FILL_IN
+    val trafficDF = df.groupBy("traffic_source","geo.state", "geo.city")
+                      .agg(
+                          sum("revenue").as("total_rev"),
+                          avg("revenue").as("avg_rev")
+                        )
 
     /*
     6. Recuperer les cinqs principales sources de trafic par revenu total
-
      */
-    val topTrafficDF = trafficDF.FILL_IN
+
+    val topTrafficDF = trafficDF.groupBy("traffic_source")
+      .agg(sum("total_rev").as("total_rev"))
+      .orderBy(col("total_rev").desc)
+      .limit(5)
 
 
     /*
     7. Limitez les colonnes de revenus à deux décimales pointés
       Modifier les colonnes avg_rev et total_rev pour les convertir en des nombres avec deux décimales pointés
      */
-
-    val finalDF = topTrafficDF.FILL_IN
-
+    val finalDF = topTrafficDF.withColumn("total_rev", format_number(col("total_rev"), 2))
     finalDF
-
-
   }
 
 

@@ -1,0 +1,750 @@
+2024.08.07 00:51:42 INFO  Started: Metals version 1.3.5 in folders '/home/majid/Documents/BigData/project_scala_spark' for client Visual Studio Code 1.89.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2f7c7ad4]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@708c05ea]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2f7c7ad4]
+2024.08.07 00:51:42 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+août 07, 2024 12:51:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 6
+août 07, 2024 12:51:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2
+août 07, 2024 12:51:44 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1
+2024.08.07 00:51:44 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 00:52:11 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 00:52:11 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 00:52:35 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 21:05:35 INFO  Started: Metals version 1.3.5 in folders '/home/majid/Documents/BigData/project_scala_spark' for client Visual Studio Code 1.89.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@2bc5718d]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2ccde611]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@2bc5718d]
+2024.08.07 21:05:37 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.08.07 21:05:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 21:05:45 INFO  running '/home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2210904230982652959/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.07 21:05:45 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.1  (this may take some time)...[0m
+2024.08.07 21:05:45 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/project/metals.sbt[0m
+2024.08.07 21:05:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 21:05:46 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.08.07 21:06:18 ERROR [info] [launcher] getting Scala 2.12.19 (for sbt)...[0m
+2024.08.07 21:06:20 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.08.07 21:06:23 INFO  [info] loading settings for project project_scala_spark-build-build from metals.sbt ...[0m
+2024.08.07 21:06:23 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project/project[0m
+2024.08.07 21:06:28 INFO  [info] loading settings for project project_scala_spark-build from metals.sbt ...[0m
+2024.08.07 21:06:28 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project[0m
+2024.08.07 21:06:37 INFO  [success] Generated .bloop/project_scala_spark-build.json[0m
+2024.08.07 21:06:37 INFO  [success] Total time: 9 s, completed 7 août 2024, 21:06:37[0m
+2024.08.07 21:06:39 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.08.07 21:06:39 INFO  [info] set current project to project_scala_spark (in build file:/home/majid/Documents/BigData/project_scala_spark/)[0m
+2024.08.07 21:08:17 INFO  [success] Generated .bloop/root-test.json[0m
+2024.08.07 21:08:17 INFO  [success] Generated .bloop/root.json[0m
+2024.08.07 21:08:17 INFO  [success] Total time: 98 s (01:38), completed 7 août 2024, 21:08:17[0m
+2024.08.07 21:08:18 INFO  time: ran 'sbt bloopInstall' in 2m32s[0m
+2024.08.07 21:08:18 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:08:18 INFO  Setting up current java home /home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35 in /home/majid/.bloop/bloop.json[0m
+2024.08.07 21:08:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:09:10 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:09:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:09:19 INFO  time: Connected to build server in 1m1s[0m
+2024.08.07 21:09:19 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 21:09:19 INFO  time: Imported build in 0.36s[0m
+2024.08.07 21:09:19 INFO  running doctor check[0m
+2024.08.07 21:09:19 INFO  java targets: project_scala_spark-build, root, root-test[0m
+2024.08.07 21:09:35 WARN  2.12.12 is no longer supported in the current Metals versions, using the last known supported version 1.3.3[0m
+2024.08.07 21:09:52 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.08.07 21:10:25 INFO  time: indexed workspace in 1m5s[0m
+2024.08.07 21:10:36 INFO  compiling root (5 scala sources)[0m
+2024.08.07 21:10:50 INFO  time: compiled root in 14s[0m
+2024.08.07 21:14:11 INFO  compiling root (5 scala sources)[0m
+2024.08.07 21:14:12 INFO  time: compiled root in 1.04s[0m
+2024.08.07 21:19:07 INFO  compiling root (5 scala sources)[0m
+2024.08.07 21:19:07 INFO  time: compiled root in 0.42s[0m
+2024.08.07 21:21:16 INFO  time: code lens generation in 2.89s[0m
+2024.08.07 21:21:18 INFO  skipping build import with status 'Installed'[0m
+2024.08.07 21:21:18 INFO  Disconnecting from Bloop session...[0m
+2024.08.07 21:21:18 INFO  Shut down connection with build server.[0m
+2024.08.07 21:21:18 INFO  Cancelling compilation on Bloop server[0m
+août 07, 2024 9:21:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFOS: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:135)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:191)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:160)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.$anonfun$cancel$1(FutureWithTimeout.scala:37)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:217)
+	at scala.meta.internal.metals.utils.FutureWithTimeout$$anon$1.cancel(FutureWithTimeout.scala:37)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:334)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.utils.RequestRegistry.cancel(RequestRegistry.scala:94)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:450)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:182)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:174)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2024.08.07 21:21:18 INFO  Shut down connection with build server.[0m
+2024.08.07 21:21:18 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:21:18 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/build.sbt. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 21:21:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:21:18 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:21:18 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:21:18 INFO  time: Connected to build server in 0.11s[0m
+2024.08.07 21:21:18 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 21:21:18 INFO  time: Imported build in 0.17s[0m
+2024.08.07 21:21:18 INFO  running doctor check[0m
+2024.08.07 21:21:18 INFO  java targets: project_scala_spark-build, root, root-test[0m
+2024.08.07 21:21:22 INFO  time: indexed workspace in 4.22s[0m
+2024.08.07 21:21:22 INFO  compiling root (5 scala sources)[0m
+2024.08.07 21:21:22 INFO  time: compiled root in 0.63s[0m
+2024.08.07 21:26:43 INFO  running '/home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10156387404205129408/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.07 21:26:45 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.08.07 21:26:46 INFO  [info] loading settings for project project_scala_spark-build-build from metals.sbt ...[0m
+2024.08.07 21:26:46 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project/project[0m
+2024.08.07 21:26:48 INFO  [info] loading settings for project project_scala_spark-build from metals.sbt ...[0m
+2024.08.07 21:26:48 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project[0m
+2024.08.07 21:26:51 INFO  [success] Generated .bloop/project_scala_spark-build.json[0m
+2024.08.07 21:26:51 INFO  [success] Total time: 3 s, completed 7 août 2024, 21:26:51[0m
+2024.08.07 21:26:53 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.08.07 21:26:53 INFO  [info] set current project to project_scala_spark (in build file:/home/majid/Documents/BigData/project_scala_spark/)[0m
+2024.08.07 21:26:55 INFO  [warn] [0m
+2024.08.07 21:26:55 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2024.08.07 21:26:55 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2024.08.07 21:26:55 INFO  [warn] Removed stale /home/majid/Documents/BigData/project_scala_spark/.bloop/root-test.json[0m
+2024.08.07 21:26:55 INFO  [warn] Removed stale /home/majid/Documents/BigData/project_scala_spark/.bloop/root.json[0m
+2024.08.07 21:26:55 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_3:2.4.5[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_3/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:26:55 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_3/2.4.5/spark-core_3-2.4.5.pom[0m
+2024.08.07 21:26:55 INFO  [error] Error downloading org.apache.spark:spark-sql_3:2.4.5[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_3/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:26:55 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_3/2.4.5/spark-sql_3-2.4.5.pom[0m
+2024.08.07 21:26:55 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:346)[0m
+2024.08.07 21:26:55 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$39(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 21:26:55 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2024.08.07 21:26:55 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:142)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:144)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:131)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:169)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3867)[0m
+2024.08.07 21:26:55 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2024.08.07 21:26:55 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.08.07 21:26:55 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+2024.08.07 21:26:55 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_3:2.4.5[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_3/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:26:55 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_3/2.4.5/spark-core_3-2.4.5.pom[0m
+2024.08.07 21:26:55 INFO  [error] Error downloading org.apache.spark:spark-sql_3:2.4.5[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   Not found[0m
+2024.08.07 21:26:55 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_3/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:26:55 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_3/2.4.5/spark-sql_3-2.4.5.pom[0m
+2024.08.07 21:26:55 INFO  [error] Total time: 2 s, completed 7 août 2024, 21:26:56[0m
+2024.08.07 21:26:56 INFO  time: ran 'sbt bloopInstall' in 12s[0m
+2024.08.07 21:26:56 ERROR sbt command failed: /home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals10156387404205129408/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2024.08.07 21:26:56 INFO  Disconnecting from Bloop session...[0m
+2024.08.07 21:26:56 INFO  Shut down connection with build server.[0m
+2024.08.07 21:26:56 INFO  Shut down connection with build server.[0m
+2024.08.07 21:26:56 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:26:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:26:56 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:26:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:26:56 INFO  time: Connected to build server in 76ms[0m
+2024.08.07 21:26:56 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 21:26:56 INFO  running doctor check[0m
+2024.08.07 21:26:56 INFO  java targets: project_scala_spark-build[0m
+2024.08.07 21:26:58 INFO  time: indexed workspace in 1.74s[0m
+2024.08.07 21:26:58 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 21:26:58 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala[0m
+2024.08.07 21:26:58 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Load.scala[0m
+août 07, 2024 9:39:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 207
+2024.08.07 21:39:31 INFO  running '/home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15296803539772424509/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.07 21:39:33 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.08.07 21:39:33 INFO  [info] loading settings for project project_scala_spark-build-build from metals.sbt ...[0m
+2024.08.07 21:39:35 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project/project[0m
+2024.08.07 21:39:35 INFO  [info] loading settings for project project_scala_spark-build from metals.sbt ...[0m
+2024.08.07 21:39:36 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project[0m
+2024.08.07 21:39:38 INFO  [success] Generated .bloop/project_scala_spark-build.json[0m
+2024.08.07 21:39:38 INFO  [success] Total time: 2 s, completed 7 août 2024, 21:39:38[0m
+2024.08.07 21:39:40 INFO  [info] loading settings for project root from build.sbt ...[0m
+2024.08.07 21:39:40 INFO  [info] set current project to project_scala_spark (in build file:/home/majid/Documents/BigData/project_scala_spark/)[0m
+2024.08.07 21:39:42 INFO  [warn] [0m
+2024.08.07 21:39:42 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2024.08.07 21:39:42 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2024.08.07 21:39:42 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:2.4.5[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_2.13/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:39:42 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/2.4.5/spark-core_2.13-2.4.5.pom[0m
+2024.08.07 21:39:42 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:2.4.5[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_2.13/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:39:42 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/2.4.5/spark-sql_2.13-2.4.5.pom[0m
+2024.08.07 21:39:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:346)[0m
+2024.08.07 21:39:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$39(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 21:39:42 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2024.08.07 21:39:42 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:142)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:144)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:131)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:169)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3867)[0m
+2024.08.07 21:39:42 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2024.08.07 21:39:42 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.08.07 21:39:42 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+2024.08.07 21:39:42 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:2.4.5[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_2.13/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:39:42 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/2.4.5/spark-core_2.13-2.4.5.pom[0m
+2024.08.07 21:39:42 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:2.4.5[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   Not found[0m
+2024.08.07 21:39:42 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_2.13/2.4.5/ivys/ivy.xml[0m
+2024.08.07 21:39:42 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/2.4.5/spark-sql_2.13-2.4.5.pom[0m
+2024.08.07 21:39:42 INFO  [error] Total time: 2 s, completed 7 août 2024, 21:39:42[0m
+2024.08.07 21:39:42 INFO  time: ran 'sbt bloopInstall' in 11s[0m
+2024.08.07 21:39:42 ERROR sbt command failed: /home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals15296803539772424509/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2024.08.07 21:39:42 INFO  Disconnecting from Bloop session...[0m
+2024.08.07 21:39:42 INFO  Shut down connection with build server.[0m
+2024.08.07 21:39:42 INFO  Shut down connection with build server.[0m
+2024.08.07 21:39:42 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:39:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:39:42 INFO  Attempting to connect to the build server...[0m
+2024.08.07 21:39:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 21:39:42 INFO  time: Connected to build server in 72ms[0m
+2024.08.07 21:39:42 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 21:39:42 INFO  running doctor check[0m
+2024.08.07 21:39:42 INFO  java targets: project_scala_spark-build[0m
+2024.08.07 21:39:44 INFO  time: indexed workspace in 1.57s[0m
+2024.08.07 21:39:44 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala[0m
+2024.08.07 21:39:44 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 21:39:44 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Load.scala[0m
+août 07, 2024 9:43:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 273
+2024.08.07 22:17:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:17:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 510
+2024.08.07 22:17:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:35 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:18:48 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-18-48-861.md
+2024.08.07 22:18:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:49 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:49 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:49 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:18:59 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:34:27 INFO  running '/home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8610726696097484970/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.07 22:34:29 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.08.07 22:34:30 INFO  [info] loading settings for project project_scala_spark-build-build from metals.sbt ...[0m
+2024.08.07 22:34:32 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project/project[0m
+2024.08.07 22:34:34 INFO  [info] loading settings for project project_scala_spark-build from metals.sbt ...[0m
+2024.08.07 22:34:34 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project[0m
+2024.08.07 22:34:40 INFO  [success] Generated .bloop/project_scala_spark-build.json[0m
+2024.08.07 22:34:40 INFO  [success] Total time: 5 s, completed 7 août 2024, 22:34:40[0m
+2024.08.07 22:34:40 INFO  [info] loading settings for project project_scala_spark from build.sbt ...[0m
+2024.08.07 22:34:41 INFO  [info] set current project to SparkPProject (in build file:/home/majid/Documents/BigData/project_scala_spark/)[0m
+2024.08.07 22:34:43 INFO  [warn] [0m
+2024.08.07 22:34:43 INFO  [warn] 	Note: Unresolved dependencies path:[0m
+2024.08.07 22:34:43 INFO  [error] Couldn't run bloopGenerate. The issue could be caused by failing to compile the project.[0m
+2024.08.07 22:34:43 INFO  [error] sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.1.1[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_2.13/3.1.1/ivys/ivy.xml[0m
+2024.08.07 22:34:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.1.1/spark-core_2.13-3.1.1.pom[0m
+2024.08.07 22:34:43 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.1.1[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_2.13/3.1.1/ivys/ivy.xml[0m
+2024.08.07 22:34:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.1.1/spark-sql_2.13-3.1.1.pom[0m
+2024.08.07 22:34:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:346)[0m
+2024.08.07 22:34:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$39(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 22:34:43 INFO  [error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+2024.08.07 22:34:43 INFO  [error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:315)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:60)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:142)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:74)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:144)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:131)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:220)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:169)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3867)[0m
+2024.08.07 22:34:43 INFO  [error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:63)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:69)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:283)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.Execute.work(Execute.scala:292)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:283)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+2024.08.07 22:34:43 INFO  [error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:65)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.08.07 22:34:43 INFO  [error] 	at java.base/java.lang.Thread.run(Thread.java:833)[0m
+2024.08.07 22:34:43 INFO  [error] (update) sbt.librarymanagement.ResolveException: Error downloading org.apache.spark:spark-core_2.13:3.1.1[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-core_2.13/3.1.1/ivys/ivy.xml[0m
+2024.08.07 22:34:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-core_2.13/3.1.1/spark-core_2.13-3.1.1.pom[0m
+2024.08.07 22:34:43 INFO  [error] Error downloading org.apache.spark:spark-sql_2.13:3.1.1[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   Not found[0m
+2024.08.07 22:34:43 INFO  [error]   not found: /home/majid/.ivy2/localorg.apache.spark/spark-sql_2.13/3.1.1/ivys/ivy.xml[0m
+2024.08.07 22:34:43 INFO  [error]   not found: https://repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.1.1/spark-sql_2.13-3.1.1.pom[0m
+2024.08.07 22:34:43 INFO  [error] Total time: 2 s, completed 7 août 2024, 22:34:43[0m
+2024.08.07 22:34:43 INFO  time: ran 'sbt bloopInstall' in 15s[0m
+2024.08.07 22:34:43 ERROR sbt command failed: /home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8610726696097484970/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2024.08.07 22:34:43 INFO  Disconnecting from Bloop session...[0m
+2024.08.07 22:34:43 INFO  Shut down connection with build server.[0m
+2024.08.07 22:34:43 INFO  Shut down connection with build server.[0m
+2024.08.07 22:34:43 INFO  Attempting to connect to the build server...[0m
+2024.08.07 22:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 22:34:43 INFO  Attempting to connect to the build server...[0m
+2024.08.07 22:34:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 22:34:43 INFO  time: Connected to build server in 0.14s[0m
+2024.08.07 22:34:43 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 22:34:43 INFO  running doctor check[0m
+2024.08.07 22:34:43 INFO  java targets: project_scala_spark-build[0m
+2024.08.07 22:34:46 INFO  time: indexed workspace in 2.67s[0m
+2024.08.07 22:34:46 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:34:46 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Load.scala[0m
+2024.08.07 22:34:46 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala[0m
+2024.08.07 22:34:46 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 22:39:21 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:24 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:24 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:39:24 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:29 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:36 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:39:36 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:42 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:39:42 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:39:55 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:39:55 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:24 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:25 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:28 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:31 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:31 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:31 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:33 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:34 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:34 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:34 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:36 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:41 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:41 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:43 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:43 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:43 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:47 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:49 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:51 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:51 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:53 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:55 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:55 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:41:56 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:41:56 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-41-56-068.md
+2024.08.07 22:42:01 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:01 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:03 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:03 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:03 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:03 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-03-334.md
+2024.08.07 22:42:05 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:07 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:07 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:07 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:07 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-07-238.md
+2024.08.07 22:42:09 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:11 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:11 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:11 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:11 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-11-992.md
+2024.08.07 22:42:12 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:12 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:12 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:13 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:13 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:16 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:16 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:16 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:16 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-16-557.md
+2024.08.07 22:42:23 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:23 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:42:23 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:23 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-23-258.md
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:38 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-38-000.md
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:38 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-38-420.md
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1161
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1167
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:39 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:42:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:42:55 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-42-55-080.md
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+août 07, 2024 10:43:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1288
+août 07, 2024 10:43:06 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_22-43-06-792.md
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:06 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:08 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala[0m
+2024.08.07 22:43:08 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:43:12 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:07 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:10 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:30 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:32 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:32 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:32 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:34 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:34 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:35 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:38 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:39 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 22:50:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:45 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:50:52 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:51:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:51:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:51:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:51:40 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:43 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:46 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:47 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:48 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:50 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:51 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:51 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:53 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:53 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:53 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 22:59:54 WARN  no build target for: /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala[0m
+2024.08.07 22:59:54 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:00:57 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:01:16 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:01:16 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:01:25 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:01:29 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:01:32 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:03:32 INFO  running '/home/majid/.cache/coursier/arc/https/github.com/adoptium/temurin17-binaries/releases/download/jdk-17%252B35/OpenJDK17-jdk_x64_linux_hotspot_17_35.tar.gz/jdk-17+35/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals460539128745940570/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2024.08.07 23:03:34 INFO  [info] welcome to sbt 1.10.1 (Eclipse Adoptium Java 17)[0m
+2024.08.07 23:03:34 INFO  [info] loading settings for project project_scala_spark-build-build from metals.sbt ...[0m
+2024.08.07 23:03:36 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project/project[0m
+2024.08.07 23:03:37 INFO  [info] loading settings for project project_scala_spark-build from metals.sbt ...[0m
+2024.08.07 23:03:37 INFO  [info] loading project definition from /home/majid/Documents/BigData/project_scala_spark/project[0m
+2024.08.07 23:03:40 INFO  [success] Generated .bloop/project_scala_spark-build.json[0m
+2024.08.07 23:03:40 INFO  [success] Total time: 3 s, completed 7 août 2024, 23:03:40[0m
+2024.08.07 23:03:43 INFO  [info] loading settings for project project_scala_spark from build.sbt ...[0m
+2024.08.07 23:03:43 INFO  [info] set current project to SparkPProject (in build file:/home/majid/Documents/BigData/project_scala_spark/)[0m
+2024.08.07 23:04:37 INFO  no build target found for /home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala. Using presentation compiler with project's scala-library version: 2.12.19[0m
+2024.08.07 23:06:02 INFO  [success] Generated .bloop/project_scala_spark.json[0m
+2024.08.07 23:06:02 INFO  [success] Generated .bloop/project_scala_spark-test.json[0m
+2024.08.07 23:06:02 INFO  [success] Total time: 138 s (02:18), completed 7 août 2024, 23:06:02[0m
+2024.08.07 23:06:02 INFO  time: ran 'sbt bloopInstall' in 2m30s[0m
+2024.08.07 23:06:02 INFO  Disconnecting from Bloop session...[0m
+2024.08.07 23:06:02 INFO  Shut down connection with build server.[0m
+2024.08.07 23:06:02 INFO  Shut down connection with build server.[0m
+2024.08.07 23:06:02 INFO  Attempting to connect to the build server...[0m
+2024.08.07 23:06:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 23:06:11 INFO  Attempting to connect to the build server...[0m
+2024.08.07 23:06:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/majid/Documents/BigData/project_scala_spark/project/.metals/bsp.trace.json or /home/majid/.cache/metals/bsp.trace.json[0m
+2024.08.07 23:06:11 INFO  time: Connected to build server in 8.83s[0m
+2024.08.07 23:06:11 INFO  Connected to Build server: Bloop v1.6.0[0m
+2024.08.07 23:06:11 INFO  running doctor check[0m
+2024.08.07 23:06:11 INFO  java targets: project_scala_spark-build, project_scala_spark-test, project_scala_spark[0m
+2024.08.07 23:06:44 INFO  time: indexed workspace in 32s[0m
+2024.08.07 23:06:44 INFO  compiling project_scala_spark (5 scala sources)[0m
+2024.08.07 23:07:02 INFO  time: compiled project_scala_spark in 18s[0m
+2024.08.07 23:19:51 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:19:51 INFO  time: compiled project_scala_spark in 0.29s[0m
+2024.08.07 23:23:04 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:23:04 INFO  time: compiled project_scala_spark in 0.19s[0m
+août 07, 2024 11:23:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2064
+2024.08.07 23:23:12 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:23:12 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.07 23:23:21 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:23:21 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.07 23:25:46 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:25:46 INFO  time: compiled project_scala_spark in 0.46s[0m
+2024.08.07 23:26:40 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:26:40 INFO  time: compiled project_scala_spark in 0.3s[0m
+2024.08.07 23:26:58 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:26:58 INFO  time: compiled project_scala_spark in 0.24s[0m
+2024.08.07 23:27:20 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:27:20 INFO  time: compiled project_scala_spark in 0.31s[0m
+août 07, 2024 11:27:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2841
+2024.08.07 23:27:53 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:27:53 INFO  time: compiled project_scala_spark in 0.42s[0m
+2024.08.07 23:28:22 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:28:22 INFO  time: compiled project_scala_spark in 0.19s[0m
+2024.08.07 23:28:43 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:28:43 INFO  time: compiled project_scala_spark in 0.29s[0m
+2024.08.07 23:28:57 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:28:57 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.07 23:29:15 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:29:15 INFO  time: compiled project_scala_spark in 0.21s[0m
+2024.08.07 23:29:25 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:29:25 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.07 23:29:25 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:29:25 INFO  time: compiled project_scala_spark in 0.11s[0m
+2024.08.07 23:48:19 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:48:19 INFO  time: compiled project_scala_spark in 0.38s[0m
+août 07, 2024 11:50:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3957
+août 07, 2024 11:51:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3989
+août 07, 2024 11:51:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 3998
+2024.08.07 23:52:04 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:52:04 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.07 23:53:14 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:53:14 INFO  time: compiled project_scala_spark in 0.19s[0m
+2024.08.07 23:53:36 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:53:36 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.07 23:53:41 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:53:41 INFO  time: compiled project_scala_spark in 0.24s[0m
+2024.08.07 23:53:46 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:53:46 INFO  time: compiled project_scala_spark in 0.27s[0m
+août 07, 2024 11:55:32 PM scala.meta.internal.pc.CompilerAccess handleError
+GRAVE: A severe compiler error occurred, full details of the error can be found in the error report /home/majid/Documents/BigData/project_scala_spark/.metals/.reports/metals-full/2024-08-07/r_compiler-error_(project_scala_spark)_23-55-32-404.md
+2024.08.07 23:55:58 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:55:58 INFO  time: compiled project_scala_spark in 0.2s[0m
+août 07, 2024 11:56:06 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFOS: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2024.08.07 23:56:09 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:56:09 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.07 23:56:37 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:56:37 INFO  time: compiled project_scala_spark in 0.15s[0m
+2024.08.07 23:56:52 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:56:52 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.07 23:58:03 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:58:03 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.07 23:58:16 INFO  compiling project_scala_spark (1 scala source)[0m
+2024.08.07 23:58:16 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.07 23:58:25 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.07 23:58:25 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.07 23:59:18 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.07 23:59:18 INFO  time: compiled project_scala_spark in 0.21s[0m
+2024.08.08 00:04:59 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:04:59 INFO  time: compiled project_scala_spark in 0.19s[0m
+août 08, 2024 12:05:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5356
+2024.08.08 00:05:22 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:05:22 INFO  time: compiled project_scala_spark in 0.27s[0m
+2024.08.08 00:05:43 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:05:43 INFO  time: compiled project_scala_spark in 0.26s[0m
+2024.08.08 00:06:05 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:06:05 INFO  time: compiled project_scala_spark in 0.19s[0m
+août 08, 2024 12:08:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5639
+août 08, 2024 12:08:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5637
+août 08, 2024 12:08:25 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 5640
+2024.08.08 00:11:56 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:11:56 INFO  time: compiled project_scala_spark in 0.39s[0m
+2024.08.08 00:22:06 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:22:06 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.08 00:22:52 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:22:52 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.08 00:23:03 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:23:03 INFO  time: compiled project_scala_spark in 0.38s[0m
+2024.08.08 00:23:16 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:23:16 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.08 00:23:42 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:23:42 INFO  time: compiled project_scala_spark in 0.16s[0m
+août 08, 2024 12:24:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 6908
+août 08, 2024 12:24:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 6972
+2024.08.08 00:24:24 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:24 INFO  time: compiled project_scala_spark in 0.2s[0m
+2024.08.08 00:24:30 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:30 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:24:32 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:32 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.08 00:24:39 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:39 INFO  time: compiled project_scala_spark in 0.21s[0m
+2024.08.08 00:24:43 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:43 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:24:54 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:24:54 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:25:33 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:25:33 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.08 00:26:36 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:26:36 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:26:39 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:26:39 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.08 00:26:46 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:26:46 INFO  time: compiled project_scala_spark in 0.18s[0m
+2024.08.08 00:27:12 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:27:12 INFO  time: compiled project_scala_spark in 0.15s[0m
+2024.08.08 00:28:09 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:28:09 INFO  time: compiled project_scala_spark in 0.15s[0m
+2024.08.08 00:28:14 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:28:14 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:28:46 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:28:46 INFO  time: compiled project_scala_spark in 0.14s[0m
+août 08, 2024 12:28:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 7802
+2024.08.08 00:29:03 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:29:03 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:29:12 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:29:12 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:29:47 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:29:47 INFO  time: compiled project_scala_spark in 0.16s[0m
+2024.08.08 00:30:18 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:30:18 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.08 00:30:37 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:30:37 INFO  time: compiled project_scala_spark in 0.14s[0m
+2024.08.08 00:34:29 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:34:29 INFO  time: compiled project_scala_spark in 0.17s[0m
+2024.08.08 00:35:04 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:35:04 INFO  time: compiled project_scala_spark in 0.15s[0m
+2024.08.08 00:36:05 INFO  compiling project_scala_spark (2 scala sources)[0m
+2024.08.08 00:36:05 INFO  time: compiled project_scala_spark in 0.14s[0m

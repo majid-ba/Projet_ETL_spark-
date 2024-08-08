@@ -1,4 +1,4 @@
-import org.apache.spark.sql.DataFrame
+import org.apache.spark.sql.{DataFrame, SaveMode}
 
 object Load {
 
@@ -16,9 +16,17 @@ object Load {
   Completer la fonction ci-dessous.
    */
 
-  def saveData(df: DataFrame, saveMode: String, format: String, path: String): Nothing = ???
+  def saveData(df: DataFrame, saveMode: String, format: String, path: String): Unit = {
+    val mode = saveMode.toLowerCase match {
+      case "overwrite" => SaveMode.Overwrite
+      case "append"    => SaveMode.Append
+      case "ignore"    => SaveMode.Ignore
+      case "error" | "errorifexists" => SaveMode.ErrorIfExists
+      case _           => throw new IllegalArgumentException(s"Non supporté: $saveMode")
+    }
 
-
+    df.write.mode(mode).format(format).save(path)
+  }
 
 
 }

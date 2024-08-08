@@ -1,0 +1,52 @@
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{DataFrame, SparkSession}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Extract.scala:5:56: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def read_source_file(path: String, format : String): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:6:15: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val _spark: SparkSession = SparkSession.builder.[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:2:12: object slf4j is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.slf4j.{Logger, LoggerFactory}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:12:13: not found: type Logger[0m
+[0m[[0m[31merror[0m] [0m[0m  val _log: Logger = LoggerFactory.getLogger(Main.getClass)[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Load.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Load.scala:19:20: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def saveData(df: DataFrame, saveMode: String, format: String, path: String): Nothing = ???[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:1:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:2:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.functions.col[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:12:33: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def cleanData(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:12:21: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def cleanData(df: DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:14:5: not found: value date_format[0m
+[0m[[0m[31merror[0m] [0m[0m    date_format(df.getDate, "YYYY/MM/DD HH:MM SSS")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:62:46: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def computeTrafficRevenue(df : DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Transform.scala:62:34: not found: type DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m  def computeTrafficRevenue(df : DataFrame): DataFrame = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:6:30: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  val _spark: SparkSession = SparkSession.builder.[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/majid/Documents/BigData/project_scala_spark/src/main/scala/Utils.scala:12:22: not found: value LoggerFactory[0m
+[0m[[0m[31merror[0m] [0m[0m  val _log: Logger = LoggerFactory.getLogger(Main.getClass)[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m17 errors found[0m
